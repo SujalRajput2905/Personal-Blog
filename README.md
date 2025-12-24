@@ -2,6 +2,8 @@
 
 A full-stack personal blog application built with **Spring Boot**, **Spring Security (JWT)**, and **MongoDB**, featuring role-based access control, an admin dashboard, and an Instagram-style like system.
 
+**Live Demo:**  
+https://personal-blog-uogy.onrender.com/login.html
 ---
 
 ## 🚀 Features
