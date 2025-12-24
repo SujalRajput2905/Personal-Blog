@@ -1,4 +1,4 @@
-const BASE_URL = "/personalBlog";
+const BASE_URL = "";
 
 function getToken() {
     return localStorage.getItem("token");
