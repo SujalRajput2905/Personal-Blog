@@ -10,5 +10,8 @@ RUN mvn clean package -DskipTests
 FROM eclipse-temurin:21-jre
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
+
+# Render uses PORT env var (usually 10000)
 EXPOSE 10000
-ENTRYPOINT ["java", "-jar", "app.jar"]
+
+ENTRYPOINT ["java", "-Djava.io.tmpdir=/tmp", "-Dserver.port=${PORT}", "-jar", "app.jar"]
