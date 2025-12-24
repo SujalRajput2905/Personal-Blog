@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: "Inter", system-ui, sans-serif;
+    background: #f3f4f6;
+}
+
+/* Navbar */
+.navbar {
+    background: #ffffff;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Buttons */
+.primary-btn {
+    background: #6366f1;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    background: #e5e7eb;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.danger-btn {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Layout */
+.container {
+    max-width: 900px;
+    margin: 32px auto;
+    padding: 0 16px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+/* Inputs */
+.card input,
+.card textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+}
+
+.card textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Posts list */
+.posts-list .post {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 14px 0;
+}
+
+.posts-list .post:last-child {
+    border-bottom: none;
+}
+
+.posts-list h3 {
+    margin: 0 0 6px 0;
+}
+
+.posts-list p {
+    margin: 0 0 10px 0;
+    color: #374151;
+}
+
+.posts-list button {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.actions {
+    margin-bottom: 10px;
+}
+
+.edit-btn {
+    background: #10b981;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.edit-form input,
+.edit-form textarea {
+    width: 100%;
+    margin-bottom: 8px;
+}

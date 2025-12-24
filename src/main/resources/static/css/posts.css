@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background: #f3f4f6;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar {
+    background: #ffffff;
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+}
+
+.navbar h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar button {
+    background: #ef4444;
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 720px;
+    margin: 32px auto;
+    padding: 0 16px;
+}
+
+.post-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+}
+
+.post-card h3 {
+    margin-top: 0;
+}
+
+.like-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ef4444;
+    margin-top: 8px;
+}

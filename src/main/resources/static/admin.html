@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+<!-- Top Navbar -->
+<div class="navbar">
+  <h1>Admin Dashboard</h1>
+  <div>
+    <button class="secondary-btn" onclick="goPosts()">View Posts</button>
+    <button class="danger-btn" onclick="logout()">Logout</button>
+  </div>
+</div>
+
+<!-- Main Layout -->
+<div class="container">
+
+  <!-- Create Post Card -->
+  <div class="card">
+    <h2>Create New Post</h2>
+
+    <input id="title" placeholder="Post title">
+    <textarea id="content" placeholder="Post content"></textarea>
+
+    <button class="primary-btn" onclick="createPost()">Publish</button>
+  </div>
+
+  <!-- Posts List -->
+  <div class="card">
+    <h2>All Posts</h2>
+    <div id="adminPosts" class="posts-list"></div>
+  </div>
+
+</div>
+
+<script src="js/util.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

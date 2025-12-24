@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Posts</title>
+    <link rel="stylesheet" href="css/posts.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h1>Personal Blog</h1>
+
+    <div>
+        <!-- Admin button (hidden by default, shown via JS) -->
+        <button id="adminBtn"
+                onclick="goAdmin()"
+                style="display:none; margin-right:10px;">
+            Admin Panel
+        </button>
+
+        <button onclick="logout()">Logout</button>
+    </div>
+</div>
+
+<div class="container" id="postsContainer"></div>
+
+<script src="js/util.js"></script>
+<script src="js/posts.js"></script>
+</body>
+</html>
